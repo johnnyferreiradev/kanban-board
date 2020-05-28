@@ -63,3 +63,20 @@ body {
     margin-bottom: 16px;
     border-radius: 8px;
 }
+
+.highlight {
+    background-color: rgba(85, 45, 216, 0.11);
+}
+
+.card, .dropzone {
+    transition: all .5s;
+}
+
+.is-dragging {
+    cursor: move;
+    opacity: 3;
+}
+
+.over {
+    background-color: rgba(39, 223, 100, 0.226);
+}
